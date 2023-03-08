@@ -1,0 +1,5 @@
+torch
+torch-directml
+fairscale
+fire
+sentencepiece

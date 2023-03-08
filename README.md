@@ -1,6 +1,6 @@
 # LLaMA for DirectML and CPU
 Available for GPU with >=32GB VRAM.  
-Available for CPU.  
+Available for CPU with >=32GB RAM.  
 
 # LLaMA 
 

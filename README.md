@@ -2,6 +2,10 @@
 Available for GPU with >=32GB VRAM.  
 Available for CPU with >=32GB RAM.  
 
+## Interact 
+```bash
+torchrun --standalone --nproc_per_node 1 interact.py --ckpt_dir models/7B --tokenizer_path ./models/7B/tokenizer.model --max_batch_size 32 --max_seq_len 128
+```
 # LLaMA 
 
 This repository is intended as a minimal, hackable and readable example to load [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) ([arXiv](https://arxiv.org/abs/2302.13971v1)) models and run inference.
